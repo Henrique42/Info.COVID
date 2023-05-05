@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.chart.BarChart?>
+<?import javafx.scene.chart.CategoryAxis?>
+<?import javafx.scene.chart.NumberAxis?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.SeparatorMenuItem?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="466.0" prefWidth="647.0" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.mycompany.projetocovid.InicioController">
+   <top>
+      <MenuBar BorderPane.alignment="CENTER">
+        <menus>
+          <Menu mnemonicParsing="false" text="Opções">
+            <items>
+                  <MenuItem fx:id="opVoltar" mnemonicParsing="false" onAction="#onOpVoltar" text="Voltar" />
+                  <SeparatorMenuItem mnemonicParsing="false" />
+              <MenuItem fx:id="opClose" mnemonicParsing="false" onAction="#onOpClose" text="Sair" />
+            </items>
+          </Menu>
+        </menus>
+      </MenuBar>
+   </top>
+   <center>
+      <HBox prefHeight="100.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <children>
+            <ListView fx:id="listView" onMouseClicked="#onMouseClickedLV" prefHeight="200.0" prefWidth="200.0" />
+            <BarChart fx:id="histograma">
+              <xAxis>
+                <CategoryAxis fx:id="eixoCategorias" animated="false" side="BOTTOM" />
+              </xAxis>
+              <yAxis>
+                <NumberAxis fx:id="eixoValores" side="LEFT" />
+              </yAxis>
+            </BarChart>
+         </children>
+      </HBox>
+   </center>
+</BorderPane>
