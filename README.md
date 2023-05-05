@@ -6,8 +6,8 @@ Projeto feito para a disciplina de "Programação Orientada a Objetos" em 2021. 
 ## Uso
 - Página inicial:
 
-![image](https://user-images.githubusercontent.com/39635299/236492275-d48eca89-c0a8-4698-b0a5-cc11d0b5a8fb.png)
+![pagina_inicial](https://user-images.githubusercontent.com/39635299/236494998-8703337b-6565-4b56-a45b-f9042b3ab76f.png)
 
 - Apresentação dos dados:
 
-![image](https://user-images.githubusercontent.com/39635299/236492524-3f365046-7a63-402f-a89c-96fea2a0eca8.png)
+![dados](https://user-images.githubusercontent.com/39635299/236495196-8674cb4f-0147-4548-b27d-04d90eb3816c.png)
